@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jhmaverick/blazar/master/src/schema/blazar-schema.json",
+  "configs": {
+    "view_render_mustache": true,
+    "logs_dir": "../logs"
+  },
+  "data": {
+    "name": "Blazar Project",
+    "version": "1.0"
+  },
+  "dbs": {
+    "app_db": {
+      "drive": "mysql",
+      "host": "localhost",
+      "user": "",
+      "pass": "",
+      "db": ""
+    }
+  },
+  "map": {
+    "home": {
+      "class": "Application\\Page\\Home\\Home"
+    }
+  }
+}

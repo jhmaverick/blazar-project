@@ -1,0 +1,18 @@
+/*
+ * Arquivo de sobre-escrita do manifesto
+ */
+{
+  "$schema": "https://raw.githubusercontent.com/jhmaverick/blazar/master/src/schema/blazar-schema.json",
+  "configs": {
+    "env": 3
+  },
+  "dbs": {
+    "app_db": {
+      "drive": "mysql",
+      "host": "localhost",
+      "user": "root",
+      "pass": "",
+      "db": ""
+    }
+  }
+}

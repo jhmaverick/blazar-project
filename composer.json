@@ -1,0 +1,12 @@
+{
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "ext-zip": "*",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "jhmaverick/blazar": "dev-develop"
+  },
+  "require-dev": {
+  }
+}
