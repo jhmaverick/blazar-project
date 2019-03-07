@@ -1,8 +1,7 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jhmaverick/blazar/master/src/schema/blazar-schema.json",
+  "$schema": "https://raw.githubusercontent.com/jhmaverick/blazar/master/schema/blazar-schema.json",
   "configs": {
-    "view_render_mustache": true,
-    "logs_dir": "../logs"
+    "view_render_mustache": true
   },
   "data": {
     "name": "Blazar Project",

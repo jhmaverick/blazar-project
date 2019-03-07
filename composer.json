@@ -5,8 +5,13 @@
     "ext-zip": "*",
     "ext-curl": "*",
     "ext-json": "*",
-    "jhmaverick/blazar": "dev-develop"
+    "jhmaverick/blazar": "~0.1.1"
   },
   "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Application\\": "src/"
+    }
   }
 }

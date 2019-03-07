@@ -1,12 +1,16 @@
 /*
  * Arquivo de sobre-escrita do manifesto
+ *
+ * Adicionar arquivo ao gitignore
+ * Não enviar este arquivo para a produção
  */
 {
-  "$schema": "https://raw.githubusercontent.com/jhmaverick/blazar/master/src/schema/blazar-schema.json",
+  "$schema": "https://raw.githubusercontent.com/jhmaverick/blazar/master/schema/blazar-schema.json",
   "configs": {
     "env": 3
   },
   "dbs": {
+    // DB de desenvolvimento
     "app_db": {
       "drive": "mysql",
       "host": "localhost",
